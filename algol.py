@@ -89,3 +89,10 @@ class Algol:
             return b
         else:
             return Algol.recursion_nod(b, a % b)
+
+    @staticmethod
+    def recursion_summer(num: int):
+        if num == 1:
+            return 1
+        else:
+            return num + Algol.recursion_summer(num - 1)

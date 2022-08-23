@@ -21,8 +21,8 @@ def show_node():
 def main():
     import random
     nums = [random.randint(1, 20) for _ in range(10)]
-    print(Algol.recursion_factorial(4))
-    print(Algol.recursion_nod(12, 15))
+    print(Algol.recursion_nod(50, 25))
+
 
 if __name__ == '__main__':
     main()
